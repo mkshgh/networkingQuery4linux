@@ -20,17 +20,17 @@
 ## Using Screen to run process in background
 
 - start a screen session
-<code>
- >_ screen
- >_ your_code_here
-</code>
+```
+    >_ screen 
+    >_ your_code_here
+```
  
 - list all the screen sessions
-<code>
- >_ screen -ls
-</code>
+```
+    >_ screen -ls
+```
 
 - see the running screen session again
-<code>
- >_ screen r
-</code>
+```
+    >_ screen r
+```
