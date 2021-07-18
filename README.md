@@ -17,45 +17,20 @@
 
 `chmod +x script-name-here.sh`
 
-## Running code in background using jobs
+## Using Screen to run process in background
 
-- run a job in background
+- start a screen session
 <code>
- #just end with an & at the end
-  
-  your_code_here &
+ >_ screen
+ >_ your_code_here
 </code>
-
-- view all jobs
+ 
+- list all the screen sessions
 <code>
- #just type jobs
-  
-  jobs
+ >_ screen -ls
 </code>
 
-- bring the job to foreground
+- see the running screen session again
 <code>
- #type jobs and find your job number
-  
-  fg your_job_number
+ >_ screen r
 </code>
-
-- Stop the job
-<code>
- #type jobs and find your job number
-  
-  jobs your_job_number
-</code>
-
-
-- send the job to background again
-<code>
- #type jobs and find your job number
-  
-  bg your_job_number
-</code>
-
-</code>
-
-
-
